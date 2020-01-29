@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Style="{DynamicResource NormalWindow}"
+        Loaded="Window_Loaded"
+        Title="Automatic Theme Switcher" Height="450" Width="800">
+    <StackPanel>
+        <Label HorizontalAlignment="Center">Switch Windows to "High Contrast" to see updated Styles applied to Window and Label</Label>
+        <Separator/>
+        <Separator/>
+        <Label HorizontalAlignment="Center"
+               Style="{DynamicResource NormalLabel}">Hello World</Label>
+    </StackPanel>
+</Window>
