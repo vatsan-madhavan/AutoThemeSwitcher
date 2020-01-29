@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/vmad/GitHubBuilds/_apis/build/status/AutoThemeSwitcher?branchName=master)](https://dev.azure.com/vmad/GitHubBuilds/_build/latest?definitionId=11&branchName=master)
