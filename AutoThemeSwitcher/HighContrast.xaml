@@ -13,4 +13,9 @@
     <Style x:Key="HighContrastMainWindow" TargetType="local:MainWindow">
         <Setter Property="Background" Value="Green"/>
     </Style>
+
+    <Style x:Key="HighContrastTextBox" TargetType="TextBox">
+        <Setter Property="Background" Value="Blue"/>
+        <Setter Property="Foreground" Value="GreenYellow"/>
+    </Style>
 </ResourceDictionary>
